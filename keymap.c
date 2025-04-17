@@ -1,7 +1,7 @@
 #include QMK_KEYBOARD_H
 #define KC_CAD LALT(LCTL(KC_DEL))
-#define KC_LVM LCTL(LALT(KC_RGHT))
-#define KC_RVM LCTL(LALT(KC_LEFT))
+#define KC_LVM LCTL(LALT(KC_LEFT))
+#define KC_RVM LCTL(LALT(KC_RVM))
 #define REDO LCTL(KC_Y)
 #define SAVE LCTL(KC_S)
 #define CTLF LCTL(KC_F)
@@ -22,7 +22,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * | ESC  |   1  |   2  |   3  |   4  |   5  |                    |   6  |   7  |   8  |   9  |   0  |  `   |
  * |------+------+------+------+------+------|                    |------+------+------+------+------+------|
  * | Tab  |   Q  |   W  |   F  |   P  |   B  |                    |   J  |   L  |   U  |   Y  |   ;  |  -   |
- * |------+------+------+------+------+------|                    |------+------+----P--+------+------+------|
+ * |------+------+------+------+------+------|                    |------+------+------+------+------+------|
  * |LCTRL |   A  |   R  |   S  |   T  |   G  |-------.    ,-------|   M  |   N  |   E  |   I  |   O  |  '   |
  * |------+------+------+------+------+------|  Copy |    | Paste |------+------+------+------+------+------|
  * |LShift|   Z  |   X  |   C  |   D  |   V  |-------|    |-------|   K  |   H  |   ,  |   .  |   /  |RShift|
