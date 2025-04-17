@@ -1,7 +1,7 @@
 #include QMK_KEYBOARD_H
 #define KC_CAD LALT(LCTL(KC_DEL))
 #define KC_LVM LCTL(LALT(KC_LEFT))
-#define KC_RVM LCTL(LALT(KC_RVM))
+#define KC_RVM LCTL(LALT(KC_RGHT))
 #define REDO LCTL(KC_Y)
 #define SAVE LCTL(KC_S)
 #define CTLF LCTL(KC_F)
